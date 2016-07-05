@@ -1,0 +1,24 @@
+{
+  "name": "grunt-empty",
+  "version": "1.0.0",
+  "description": "grunt empty",
+  "main": "Gruntfile.js.not.expand.bak.js",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "load-grunt-tasks": "^3.4.1",
+    "time-grunt": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "empty"
+  ],
+  "author": "wxd",
+  "license": "ISC"
+}

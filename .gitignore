@@ -4,3 +4,4 @@ WebDev/node/knowledge/stream/node_modules/
 *.DS_Store
 WebDev/node/project/node-grunt-movie/public/libs/
 WebDev/node/project/node-grunt-movie/bower_components/
+WebDev/build/bower/jquery-bootstrap-in-action/bower_components/
