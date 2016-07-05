@@ -2,3 +2,5 @@ WebDev/node/knowledge/crawler/node_modules/
 WebDev/node/knowledge/promise/node_modules/
 WebDev/node/knowledge/stream/node_modules/
 *.DS_Store
+WebDev/node/project/node-grunt-movie/public/libs/
+WebDev/node/project/node-grunt-movie/bower_components/

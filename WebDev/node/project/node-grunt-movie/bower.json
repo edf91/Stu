@@ -1,0 +1,26 @@
+{
+  "name": "node-movie",
+  "authors": [
+    "wangxd <1114207539@qq.com>"
+  ],
+  "description": "node-movie",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "node-movie"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
