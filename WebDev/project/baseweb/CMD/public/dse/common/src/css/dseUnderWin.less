@@ -1,0 +1,70 @@
+/**
+ * dseUnderWin样式
+ * create by wangxd
+ */
+/*点击弹窗下拉样式 start*/
+@boxMargin: 10px;//盒子之间的间隔大小
+@nodeMarginTop: 12px;
+@backgroundColor: #fff;
+@headerBgColor: #eeeeee;
+@nodeSelectedColor: #3fb6f3;
+@borderColor: #e1e1e1;
+
+.dse-temp{/*站位*/}
+.dse-underwin-panel{
+	border: #cccacb 1px solid;
+	background: @backgroundColor;
+	.dse-underwin-continer{
+		.dse-underwin-header{
+			border: 1px solid @borderColor;
+			background: @headerBgColor;
+			float:left;
+			height: 31;
+			width:100%;
+			line-height: 30px;
+			.dse-underwin-header-label{
+				margin-left: @boxMargin;
+			}
+			.dse-underwin-header-text{
+				display: inline-block;
+			}
+		}
+		.dse-underwin-content{
+			background: @backgroundColor;
+			color: #3b3b3b;
+			width:100%;
+			.dse-underwin-node-detail{
+				border-bottom: 1px solid @borderColor;
+				padding-bottom: @boxMargin;
+				.dse-underwin-group{
+					display:block;
+					padding-top: @boxMargin;
+					margin-left: @boxMargin;
+					width: 95%;
+					white-space:nowrap;
+					text-overflow:ellipsis;
+					-o-text-overflow: ellipsis;
+					overflow:hidden;
+				}
+				.dse-underwin-node{
+					display:inline-block;
+					margin-top: @nodeMarginTop;
+					margin-left: @boxMargin;
+					margin-right: @boxMargin;
+					max-width: 44;
+					min-width: 44;
+					white-space:nowrap;
+					text-overflow:ellipsis;
+					-o-text-overflow: ellipsis;
+					overflow:hidden;
+					cursor: pointer
+				}
+				.dse-underwin-node-selected{
+					color: @nodeSelectedColor;
+				}
+			}
+		}
+	}
+}
+
+/*点击弹窗下拉样式 end*/
